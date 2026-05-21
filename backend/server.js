@@ -10,6 +10,7 @@ import bookingRouter from './routes/bookingRouter.js';
 const app = express();
 const port = 4000;
 
+app.set('trust proxy', 1);
 // MIDDLEWARES - FIXED CORS TO ALLOW CLERK TOKENS
 app.use(cors({
     origin: ['https://course.amresh.com.np', "https://courseadmin.amresh.com.np"],
