@@ -12,7 +12,7 @@ const port = 4000;
 
 // MIDDLEWARES - FIXED CORS TO ALLOW CLERK TOKENS
 app.use(cors({
-    origin: ['http://localhost:5173', "http://localhost:5174"],
+    origin: ['https://course.amresh.com.np', "https://courseadmin.amresh.com.np"],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization'] // <-- THIS IS THE MAGIC FIX
 }));
