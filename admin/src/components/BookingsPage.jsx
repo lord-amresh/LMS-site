@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { bookingsStyles } from "../assets/dummyStyles";
 import { BadgeIndianRupee, BookOpen, GraduationCap, Search, User, CheckCircle, Clock } from "lucide-react";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://lms-site-8cyh.onrender.com";
 
 const BookingsPage = () => {
   const [searchTerm, setSearchTerm] = useState("");

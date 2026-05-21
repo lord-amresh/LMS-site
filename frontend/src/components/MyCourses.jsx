@@ -7,7 +7,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import { Play, Star, User } from "lucide-react";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://lms-site-8cyh.onrender.com";
 
 const MyCourses = () => {
   const navigate = useNavigate();

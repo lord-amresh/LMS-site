@@ -5,7 +5,7 @@ import { ArrowRight, Star, User } from 'lucide-react'
 import { Slide, toast, ToastContainer } from 'react-toastify';
 import { useAuth, useUser } from '@clerk/react';
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://lms-site-8cyh.onrender.com";
 const HomeCourses = () => {
     const navigate = useNavigate();
     const { title, course: courseFont, detail } = homeCoursesStyles.fonts;

@@ -16,7 +16,7 @@ import {
   UserPen,
   ChevronUp,
 } from "lucide-react";
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://lms-site-8cyh.onrender.com";
 
 // formatDuration accepts either {hours, minutes} or (hours, minutes)
 const formatDuration = (a, b) => {

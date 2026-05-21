@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { dashboardStyles } from '../assets/dummyStyles';
 import { BadgeIndianRupee, BookMarked, BookOpenText, Search, ShoppingCart, Users } from 'lucide-react';
 
-const API_BASE = 'http://localhost:4000';
+const API_BASE = 'https://lms-site-8cyh.onrender.com';
 const fmtCurrency = (n) => {
   if (n == null) return "₹0";
   const num = Number(n);
